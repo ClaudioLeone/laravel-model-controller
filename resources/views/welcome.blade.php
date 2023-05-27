@@ -11,6 +11,8 @@
                         <hr>
                         <p class="card-text"><em>{{ $movie->original_title }}</em></p>
                         <hr>
+                        <p class="card-text">Data d'uscita: <em>{{ $movie->date }}</em></p>
+                        <hr>
                         <p>Voto: <span class="vote-text">{{ $movie->vote }}</span></p>
                     </div>
                 </div>
