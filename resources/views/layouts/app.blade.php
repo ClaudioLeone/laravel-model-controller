@@ -15,13 +15,12 @@
 
 </head>
 
-<body class="bg-light">
+<body class="bg-dark">
     @include('partials.header')
 
     <main>
         @yield('content')
     </main>
-
 </body>
 
 </html>
